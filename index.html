@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="convert.js"></script>
+</head>
+<body>
+    <div id="website">
+        <h1 id="title">Roman Numeral Converter</h1>
+        
+        <div id="converter">
+            <div id="explanation">
+                <p id="description"><b>Convert Arabic numerals to Roman numbers</b></p>
+            </div>
+            <div id="enterRoman">
+                <div id="instruccions"><b>Arabic number:</b></div>
+                <div id="input">
+                    <input
+                    type="text"
+                    id="arabicNumber"
+                    placeholder="Convert to Roman"
+                    required
+                  /></div>
+            </div>
+            <div id="submit">
+                <button type="submit" id="submit-button" onclick="calcRoman()">
+                 <b>Convert</b>
+                </button>
+            </div>
+
+            <div>
+                <div id="output">
+                    <p><b>The Roman number is:</b> </p>
+                    <p id="textarea"></p>
+                  </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
